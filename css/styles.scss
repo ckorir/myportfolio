@@ -1,0 +1,195 @@
+
+@import './reset';
+@import './globals';
+
+.landing{
+    background: linear-gradient(rgba(199, 148, 61, 0.651),rgb(0, 0, 0));
+
+    .title{
+        color: black;
+        position: absolute;
+        margin-top: 10%;
+        left: 25%;
+        letter-spacing: .2em;
+    }
+    .content{
+        display: flex;
+
+        .landingtext{
+            flex-basis: 40%;
+            padding-top: 31%;
+            margin-left: 10%;
+            color: #e7e4e4;
+
+            h1{
+                margin-bottom: 15%;
+            }
+            h2{
+                line-height: 1.4em;
+                font-weight: 100;
+            }
+            h3{
+                font-style: italic;
+                font-size: 18px;
+            }
+        }
+        .profileimg{
+            overflow: hidden;
+            img{
+                
+                position: relative;
+                top: 5.5%;
+                height: 28em;
+                
+            }
+        }
+    }
+}
+
+.languages{
+
+    h1{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .cardsec{
+        justify-content: center;
+        padding: 40px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        .card{
+            margin: 1%;
+            padding: 10px;
+            border: 1px solid wheat;
+            border-radius: 20px;
+            width: 11em;
+           // height: 8em;
+
+            img{
+                position: relative;
+                height: 75px;
+            }
+        }
+        
+    } 
+}
+
+.projects{
+    text-align: center;
+    h1{
+        padding-bottom: 8%;
+    }
+
+    .projectscontainer{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+
+        .projectcard{
+            cursor: pointer;
+            background-size: 100%;
+            display: flex;
+            padding: 70px;
+            //margin-bottom: 80px;
+            width: 12.9em;
+            margin: 1%;
+        }
+        .pcard1{
+            background-image: url('../img/pcia.png');
+            background-size: 121%;
+            background-position: 30% 70%;
+        }
+        .pcard2{
+            background-image: url('../img/Gglass.png');
+            background-position: 30% 10%;
+        }
+
+        .pcard3{
+            width: 26.3em;
+            background-image: url('../img/webnow.png');
+            background-position: 50% 60%;
+        }
+
+    }
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #a17831bb;
+}
+
+@media only screen and (max-width: 420px){
+
+    .landing{
+        .title{
+            font-size: 25px;
+        }
+
+        .content{
+            .landingtext{
+                flex-basis: 48%;
+
+                h1{
+                    font-size: 25px;
+                    margin-bottom: 10%;
+                }
+            }
+            
+            .profileimg{
+                img{
+                    height: 22em;
+                }
+            }
+        }
+        
+    }
+
+    .languages{
+        .cardsec{ 
+            padding: 1px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            .card{
+                width: 9em;
+                justify-content: center;
+
+                img{
+                    height: 70px;
+                }
+            }
+            .card:nth-child(4){
+                img{
+                    top: 5%;
+                    height: 80px;
+                }
+            }
+
+            .card:nth-child(6){
+                img{
+                    top: 15%;
+                    height: 60px;
+                }
+            }
+           
+        }
+    }
+
+    .projects{
+        .projectscontainer{
+            .projectcard{
+                width: 26.3em;
+                margin-bottom: 2%;
+            }
+        }
+    }
+}

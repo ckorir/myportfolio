@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1, h3, span {
+  color: #F58787;
+}
+
+.landing {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(199, 148, 61, 0.651)), to(black));
+  background: linear-gradient(rgba(199, 148, 61, 0.651), black);
+}
+
+.landing .title {
+  color: black;
+  position: absolute;
+  margin-top: 10%;
+  left: 25%;
+  letter-spacing: .2em;
+}
+
+.landing .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .content .landingtext {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding-top: 31%;
+  margin-left: 10%;
+  color: #e7e4e4;
+}
+
+.landing .content .landingtext h1 {
+  margin-bottom: 15%;
+}
+
+.landing .content .landingtext h2 {
+  line-height: 1.4em;
+  font-weight: 100;
+}
+
+.landing .content .landingtext h3 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.landing .content .profileimg {
+  overflow: hidden;
+}
+
+.landing .content .profileimg img {
+  position: relative;
+  top: 5.5%;
+  height: 28em;
+}
+
+.languages h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.languages .cardsec {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.languages .cardsec .card {
+  margin: 1%;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 20px;
+  width: 11em;
+}
+
+.languages .cardsec .card img {
+  position: relative;
+  height: 75px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.projects h1 {
+  padding-bottom: 8%;
+}
+
+.projects .projectscontainer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.projects .projectscontainer .projectcard {
+  cursor: pointer;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 70px;
+  width: 12.9em;
+  margin: 1%;
+}
+
+.projects .projectscontainer .pcard1 {
+  background-image: url("../img/pcia.png");
+  background-size: 121%;
+  background-position: 30% 70%;
+}
+
+.projects .projectscontainer .pcard2 {
+  background-image: url("../img/Gglass.png");
+  background-position: 30% 10%;
+}
+
+.projects .projectscontainer .pcard3 {
+  width: 26.3em;
+  background-image: url("../img/webnow.png");
+  background-position: 50% 60%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10%;
+  padding: 20px;
+  background-color: #a17831bb;
+}
+
+@media only screen and (max-width: 420px) {
+  .landing .title {
+    font-size: 25px;
+  }
+  .landing .content .landingtext {
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
+  }
+  .landing .content .landingtext h1 {
+    font-size: 25px;
+    margin-bottom: 10%;
+  }
+  .landing .content .profileimg img {
+    height: 22em;
+  }
+  .languages .cardsec {
+    padding: 1px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .languages .cardsec .card {
+    width: 9em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .languages .cardsec .card img {
+    height: 70px;
+  }
+  .languages .cardsec .card:nth-child(4) img {
+    top: 5%;
+    height: 80px;
+  }
+  .languages .cardsec .card:nth-child(6) img {
+    top: 15%;
+    height: 60px;
+  }
+  .projects .projectscontainer .projectcard {
+    width: 26.3em;
+    margin-bottom: 2%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
