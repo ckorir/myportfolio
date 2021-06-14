@@ -87,7 +87,7 @@ h1, h3, span {
 .languages .cardsec .card {
   margin: 1%;
   padding: 10px;
-  border: 1px solid wheat;
+  border: 1px solid rgba(245, 222, 179, 0.164);
   border-radius: 20px;
   width: 11em;
 }
@@ -131,13 +131,13 @@ h1, h3, span {
 
 .projects .projectscontainer .pcard1 {
   background-image: url("../img/pcia.png");
-  background-size: 121%;
+  background-size: 100%;
   background-position: 30% 70%;
 }
 
 .projects .projectscontainer .pcard2 {
   background-image: url("../img/Gglass.png");
-  background-position: 30% 10%;
+  background-position: 30% 50%;
 }
 
 .projects .projectscontainer .pcard3 {
@@ -157,7 +157,7 @@ footer {
   background-color: #a17831bb;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 555px) {
   .landing .title {
     font-size: 25px;
   }
