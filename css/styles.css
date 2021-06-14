@@ -125,7 +125,7 @@ h1, h3, span {
   display: -ms-flexbox;
   display: flex;
   padding: 70px;
-  width: 12.9em;
+  width: 26.3em;
   margin: 1%;
 }
 
@@ -141,7 +141,6 @@ h1, h3, span {
 }
 
 .projects .projectscontainer .pcard3 {
-  width: 26.3em;
   background-image: url("../img/webnow.png");
   background-position: 50% 60%;
 }
@@ -157,7 +156,7 @@ footer {
   background-color: #a17831bb;
 }
 
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 539px) {
   .landing .title {
     font-size: 25px;
   }
@@ -201,6 +200,38 @@ footer {
   .projects .projectscontainer .projectcard {
     width: 26.3em;
     margin-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 22px;
+  }
+  .landing .title {
+    font-size: 21px;
+  }
+  .landing .content .landingtext h2 {
+    font-size: 18.5px;
+  }
+  .landing .content .profileimg img {
+    height: 18em;
+  }
+  .languages .cardsec .card {
+    width: 8em;
+  }
+  .languages .cardsec .card img {
+    height: 55px;
+  }
+  .languages .cardsec .card:nth-child(4) img {
+    top: 5%;
+    height: 70px;
+  }
+  .languages .cardsec .card:nth-child(6) img {
+    top: 15%;
+    height: 50px;
+  }
+  .languages .cardsec .card:nth-child(3) img {
+    top: 5%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
