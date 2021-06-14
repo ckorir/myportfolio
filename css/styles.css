@@ -210,12 +210,18 @@ footer {
   .landing .title {
     font-size: 21px;
   }
+  .landing .content .landingtext {
+    padding-top: 30%;
+  }
   .landing .content .landingtext h2 {
     font-size: 18.5px;
   }
+  .landing .content .landingtext h3 {
+    font-size: 15px;
+  }
   .landing .content .profileimg img {
     height: 17em;
-    top: 6%;
+    top: 7.8%;
   }
   .languages .cardsec .card {
     width: 8em;

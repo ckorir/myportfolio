@@ -207,18 +207,23 @@ footer{
 
         .title{
             font-size: 21px;
+            
         }
         .content{
             .landingtext{
+                padding-top: 30%;
                 h2{
                     font-size: 18.5px;
+                }
+                h3{
+                    font-size: 15px;
                 }
             }
 
             .profileimg{
                 img{
                     height: 17em;
-                    top: 6%;
+                    top: 7.8%;
                 }
             }
         }
