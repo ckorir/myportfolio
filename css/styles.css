@@ -164,10 +164,14 @@ footer {
   .landing .content .landingtext {
     -ms-flex-preferred-size: 48%;
         flex-basis: 48%;
+    padding-top: 35%;
   }
   .landing .content .landingtext h1 {
     font-size: 25px;
     margin-bottom: 10%;
+  }
+  .landing .content .landingtext h2 {
+    font-size: 21px;
   }
   .landing .content .profileimg img {
     height: 22em;
