@@ -42,7 +42,7 @@ h1, h3, span {
 }
 
 .landing .content .landingtext h1 {
-  margin-bottom: 15%;
+  margin-bottom: 19px;
 }
 
 .landing .content .landingtext h2 {
@@ -198,7 +198,6 @@ footer {
     height: 60px;
   }
   .projects .projectscontainer .projectcard {
-    width: 26.3em;
     margin-bottom: 2%;
   }
 }
@@ -248,6 +247,104 @@ footer {
             flex-direction: column;
     text-align: center;
     line-height: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .landing .title {
+    left: 34%;
+  }
+  .landing .content .landingtext {
+    padding-top: 28%;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    margin-left: 15%;
+  }
+  .landing .content .landingtext h1 {
+    margin-bottom: 30px;
+  }
+  .landing .content .profileimg img {
+    height: 510px;
+  }
+  .languages .cardsec {
+    width: 95%;
+  }
+  .projects .projectscontainer .projectcard {
+    width: 18em;
+    padding: 80px;
+  }
+  .projects .projectscontainer .pcard3 {
+    width: 36.78em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .landing .title {
+    left: 12em;
+  }
+  .landing .content .landingtext {
+    font-size: 1.2em;
+    padding-top: 13em;
+    margin-left: 8em;
+  }
+  .landing .content .landingtext h3 {
+    font-size: 20px;
+  }
+  .landing .content .profileimg img {
+    top: 2.2em;
+    height: 570px;
+  }
+  .languages h1 {
+    font-size: 1.8em;
+  }
+  .languages .cardsec {
+    width: 95%;
+    padding: 70px;
+  }
+  .languages .cardsec .card {
+    padding: 20px;
+    width: 13em;
+  }
+  .projects h1 {
+    font-size: 1.8em;
+  }
+  .projects .projectscontainer {
+    width: 80%;
+  }
+  .projects .projectscontainer .projectcard {
+    width: 23em;
+    padding: 100px;
+  }
+  .projects .projectscontainer .pcard3 {
+    width: 46.9em;
+    padding: 120px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .landing .title {
+    margin-top: 6%;
+    left: 40%;
+  }
+  .landing .content .landingtext {
+    margin-left: 18%;
+  }
+  .landing .content .profileimg img {
+    height: 610px;
+  }
+  .languages .cardsec {
+    width: 70%;
+  }
+  .projects h1 {
+    padding-bottom: 1.8em;
+  }
+  footer {
+    margin-top: 3.8em;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 10em;
+    padding-right: 10em;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -22,7 +22,7 @@
             color: #e7e4e4;
 
             h1{
-                margin-bottom: 15%;
+                margin-bottom: 19px;
             }
             h2{
                 line-height: 1.4em;
@@ -191,7 +191,7 @@ footer{
     .projects{
         .projectscontainer{
             .projectcard{
-                width: 26.3em;
+              //  width: 26.3em;
                 margin-bottom: 2%;
             }
         }
@@ -270,3 +270,147 @@ footer{
     }
 }
 
+@media only screen and (min-width: 760px){
+    .landing{
+        .title{
+            left: 34%;
+        }
+        .content{
+            .landingtext{
+                padding-top: 28%;
+                flex-basis: 40%;
+                margin-left: 15%;
+
+                h1{
+                    margin-bottom: 30px;
+                }
+            }
+
+            .profileimg{
+                img{
+                    height: 510px;
+                }
+            }
+        }
+    }
+
+    .languages{
+        .cardsec{
+            width: 95%;
+        }
+    }
+
+    .projects{
+        .projectscontainer{
+            .projectcard{
+                width: 18em;
+                padding: 80px;
+            }
+
+            .pcard3{
+                width: 36.78em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .landing{
+        .title{
+            left: 12em;
+        }
+        .content{
+            .landingtext{
+                font-size: 1.2em;
+                padding-top: 13em;
+                margin-left: 8em;
+
+                h3{
+                    font-size: 20px;
+                }
+            }
+
+            .profileimg{
+                img{
+                    top: 2.2em;
+                    height: 570px;
+                }
+            }
+        }
+    }
+
+    .languages{
+        h1{
+            font-size: 1.8em;
+        }
+
+        .cardsec{
+            width: 95%;
+            padding: 70px;
+
+            .card{
+                padding: 20px;
+                width: 13em;
+            }
+        }
+    }
+
+    .projects{
+        h1{
+            font-size: 1.8em; 
+        }
+
+        .projectscontainer{
+            width: 80%;
+
+            .projectcard{
+                width: 23em;
+                padding: 100px;
+            }
+
+            .pcard3{
+                width: 46.9em;
+                padding: 120px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .landing{
+        .title{
+            margin-top: 6%;
+            left: 40%;
+        }
+        .content{
+            .landingtext{
+                margin-left: 18%;
+            }
+
+            .profileimg{
+                img{
+                    height: 610px;
+                }
+            }
+        }
+    }
+
+    .languages{
+        .cardsec{
+            width: 70%;
+        }
+    }
+
+    .projects{
+        h1{
+            padding-bottom: 1.8em;
+        }
+    }
+
+    footer{
+        margin-top: 3.8em;
+        justify-content: space-between;
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}
